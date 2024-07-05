@@ -48,7 +48,7 @@ export const Quiz: React.FC = () => {
   useEffect(() => {
     if (result) {
       runFireworks();  // Trigger the fireworks when result is set
-    }
+    } //test
   }, [result]);
 
   const handleNextQuestion = (question: string, selectedRoles: Array<Roles>) => {
